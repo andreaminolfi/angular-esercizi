@@ -1,0 +1,9 @@
+<div>
+  {{ product.label }}
+</div>
+
+<button (click)="dec()">-</button>
+{{ product.qty }}
+<button (click)="inc()">+</button>
+
+<p>Total: € {{ product.cost * product.qty }}</p>
